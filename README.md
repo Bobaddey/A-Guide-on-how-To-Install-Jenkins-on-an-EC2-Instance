@@ -50,4 +50,6 @@ You can install Jenkins using rpm or by setting up the repository. We will set u
 Get the latest version of Jenkins Here: https://pkg.jenkins.io/redhat-stable/
 
 But before installing Jenkins, we have to install our Java SDK
-
+amazon-linux-extras install epel
+and then install JDK using
+amazon-linux-extras install java-openjdk11
