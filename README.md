@@ -64,4 +64,9 @@ Or Install using the step below
 ```sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 yum install epel-release # repository that provides 'daemonize'
 yum install java-11-openjdk-devel
-yum install jenkins```
+yum install jenkins
+```
+
+# Accessing Jenkins:
+
+You can access your Jenkins by typing your EC2 ip address and the Jenkins port in your browser.
