@@ -52,6 +52,16 @@ Get the latest version of Jenkins Here: https://pkg.jenkins.io/redhat-stable/
 But before installing Jenkins, we have to install our Java SDK
 
 ```amazon-linux-extras install epel ```
+
 and then install JDK using
+
 ```amazon-linux-extras install java-openjdk11```
 
+![image](https://user-images.githubusercontent.com/60587384/145051017-2e218309-b5d5-44ad-8eb5-c117a74d39e3.png)
+
+Or Install using the step below
+
+```sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+yum install epel-release # repository that provides 'daemonize'
+yum install java-11-openjdk-devel
+yum install jenkins```
