@@ -82,6 +82,7 @@ You can access your Jenkins by typing your EC2 ip address and the Jenkins port i
 
 * You can skip the PlugIn installation for now (It can be done later)
 * To change the admin password to something you would remember,
+
 ```Click Admin-> Configure -> Password```
 
 * To configure the Java path, you can do this,
@@ -91,3 +92,22 @@ You can access your Jenkins by typing your EC2 ip address and the Jenkins port i
 * Then lastly, Create another User
 
 # Now to the most interesting Part!!!!
+
+I know you can’t wait to build your first project, trust me I was as excited as you are!
+
+To build a sample project,
+
+* Create “New Item”
+* Give it a Name e.g My First Ever Jenkins Project!!
+* Click on “Freestyle Project”
+* Click “Ok”
+* Now, click on the “Build Section” at the top bar, type in
+
+```echo “Welcome to my DevOps Journey!!!”```
+
+* Save your Job
+* Build the Job
+* Check the console Output
+
+
+Yayyyyyy!!!!! We Did it!! Eureka!!
