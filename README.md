@@ -70,3 +70,24 @@ yum install jenkins
 # Accessing Jenkins:
 
 You can access your Jenkins by typing your EC2 ip address and the Jenkins port in your browser.
+
+```https://YOUR-IP-ADDRESS:8080```
+
+# Configure Jenkins:
+
+* Default username is admin
+* Get the default password from :
+
+```/var/lib/Jenkins/secret/InitialAdminPassword```
+
+* You can skip the PlugIn installation for now (It can be done later)
+* To change the admin password to something you would remember,
+```Click Admin-> Configure -> Password```
+
+* To configure the Java path, you can do this,
+
+```Manage Jenkins -> Global tool configuration -> SDK```
+
+* Then lastly, Create another User
+
+# Now to the most interesting Part!!!!
