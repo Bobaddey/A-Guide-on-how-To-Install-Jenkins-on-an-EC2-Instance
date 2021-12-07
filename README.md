@@ -27,3 +27,27 @@ Jenkins is an open-source automation server. It helps automate the parts of soft
 Click on “Add rule” -> Set Protocol to TCP -> Set Port to 8080
 * Then Review and Launch Instance
 * You can Download existing or Create a new key pair if you don’t have one already. This will be used to SSH (i.e Connect) into our Instance.
+
+# To Connect (SSH) into our Instance
+
+* Download and Install PuTTY App here : https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+* First You copy your Instance’s Public IP Address paste it in the Hostname Input
+* Click on “Auth” and then import your download Keypair to complete the authentication process to connect to the Instance.
+
+![image](https://user-images.githubusercontent.com/60587384/145049275-92144fa0-f064-469f-bbed-6f102db66c4b.png)
+
+* To go into root user, enter the command below
+
+su ec2-user
+
+![image](https://user-images.githubusercontent.com/60587384/145049379-26298142-4d70-4ae1-a205-dfe9ea79da96.png)
+
+# Install Jenkins
+
+You can install Jenkins using rpm or by setting up the repository. We will set up our repo so we can update it later.
+
+Get the latest version of Jenkins Here: https://pkg.jenkins.io/redhat-stable/
+
+But before installing Jenkins, we have to install our Java SDK
+
