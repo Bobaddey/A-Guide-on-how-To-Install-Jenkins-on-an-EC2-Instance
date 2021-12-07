@@ -7,7 +7,7 @@ Jenkins is an open-source automation server. It helps automate the parts of soft
 
 # What You will Need:
 
-· An AWS Account
+* An AWS Account
 · Security group with port 8080 opened
 · Java SDK 11
 · Jenkins installer
